@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.top-icon{
+    text-align: center;
+}
+.h-form{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 32px;
+}
+.f-heading{
+    text-align: center;
+    margin-top: 40px;
+    font-family:Helvetica, Arial, sans-serif;
+    border-radius: 0 0 8px 8px;
+    box-shadow: 5px 5px px
+     #dadde1;
+    width: 432px;
+    margin-left: 280px;
+}
+.main-form{
+    align-items: center;
+    border-top: 1px solid #dadde1;
+    width: 492px;
+    border-radius: 0 0 8px 8px;
+    margin-left: 280px;
+}
+.f-l-name{
+    width: 210px;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 5px; 
+    padding-left: 11px;
+}
+
+.f-box-input{
+    width: 475px;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding-left: 11px;
+}
+.f-text{
+    margin-top: 10px;
+    color: #777;
+    font-size: 15px;
+}
+.coniter{
+    width: 492px;
+    display: flex;
+    justify-content: space-between;
+}
+.g-box{
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    margin-right: 15px;
+}
+.btn{
+    font-size: 20px;
+    background-color: #00a400;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 150px;
+    border-radius: 6px;
+    box-shadow: none;
+    padding: 10px;
+    width: 200px;
+    color: #fff;
+}
+.link{
+    margin-left: 180px;
+    padding-top: 10px;
+    text-decoration: none;
+}
+/* full-box */
