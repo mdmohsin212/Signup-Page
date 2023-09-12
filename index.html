@@ -4,56 +4,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up For Facebook</title>
+    <!-- Add Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="all-item">
+    <div class="container text-center">
         <div class="top-icon">
             <img src="FB-ICON.png" alt="">
         </div>
-        <div class="full-box">
-            <div class="f-heading">
-                <br>
-                <h2>Create a new account</h2><br>
-                <p>It's quick and easy.</p><br>
-            </div>
-
-            <div class="main-form">
-                <br>
-                <input class="f-l-name" type="text" placeholder="First name">
-                <input style="margin-left: 35px;" class="f-l-name " type="text" placeholder="Surename">
-                <br>
-                <input class="f-box-input" type="email number" placeholder="Mobile number or email address">
-                <br>
-                <input class="f-box-input" type="password" placeholder="New password">
-                <p class="f-text">Date of birth</p>
-                <input class="f-box-input" type="date">
-                <p class="f-text">Gender</p>
-                <br>
-
-                <div class="coniter">
-                    <div class="g-box">
-                        <label for="" style="font-size: 20px;">Female</label>
-                        <input type="radio">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h2>Create a new account</h2>
+                        <p>It's quick and easy.</p>
                     </div>
-                    <div class="g-box">
-                        <label for="" style="font-size: 20px;">Male</label>
-                        <input type="radio">
-                    </div>
-                    <div class="g-box">
-                        <label for="" style="font-size: 20px;">Custom</label>
-                        <input type="radio">
+                    <div class="card-body">
+                        <form>
+                            <div class="form-group">
+                                <input class="form-control" type="text" placeholder="First name"><br>
+                                <input class="form-control" type="text" placeholder="Surname">
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" type="email" placeholder="Mobile number or email address">
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" type="password" placeholder="New password">
+                            </div>
+                            <div class="form-group">
+                                <label>Date of birth</label>
+                                <input class="form-control" type="date">
+                            </div>
+                            <div class="form-group">
+                                <label>Gender</label>
+                                <div class="custom-control custom-radio">
+                                    <input type="radio" class="custom-control-input" id="femaleRadio">
+                                    <label class="custom-control-label" for="femaleRadio">Female</label>
+                                </div>
+                                <div class="custom-control custom-radio">
+                                    <input type="radio" class="custom-control-input" id="maleRadio">
+                                    <label class="custom-control-label" for="maleRadio">Male</label>
+                                </div>
+                                <div class="custom-control custom-radio">
+                                    <input type="radio" class="custom-control-input" id="customRadio">
+                                    <label class="custom-control-label" for="customRadio">Custom</label>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <p class="f-text">People who use our service may have uploaded your contact information to Facebook. Learn more.</p>
+                            </div>
+                            <div class="form-group">
+                                <p class="f-text">By clicking Sign Up, you agree to our Terms, Privacy Policy and Cookies Policy. You may receive SMS notifications from us and can opt out at any time.</p>
+                            </div>
+                            <div class="form-group">
+                                <button class="btn btn-primary btn-block">Sign Up</button>
+                            </div>
+                            <div class="form-group">
+                                <a class="f-text" href="https://www.facebook.com/signup" target="_blank">Already have an account?</a>
+                            </div>
+                        </form>
                     </div>
                 </div>
-                <p class="f-text">People who use our service may have uploaded your contact information to Facebook. Learn more.</p><br>
-
-                <p class="f-text">By clicking Sign Up, you agree to our Terms, Privacy Policy and Cookies Policy. You may receive SMS notifications from us and can opt out at any time.</p>
-
-                <button class="btn">Sign Up</button><br>
-                <a></a>
-                <a class="f-text link" href="https://www.facebook.com/signup" target="_blank">Already have an account?</a>
             </div>
         </div>
     </div>
+
+    <!-- Add Bootstrap JS and jQuery if needed -->
+    <!--
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha384-KyZXEAg3QhqLMpG8r+P6l1r5w5gDEbIhjFjVf5f5r5l5uYDcly5c5d5f5p5s5t5n5u5e5h5f5V5T5N5E5v5I5P5N5p5w5g5O5f5r5i5s5" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7Wifbr5f5Ax5K5p5N5F5f5O5O5O5O5" crossorigin="anonymous"></script>
+    -->
 </body>
 </html>
